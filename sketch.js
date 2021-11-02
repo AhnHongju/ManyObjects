@@ -1,10 +1,11 @@
 function setup()
 {
   createCanvas(400, 400);
-  print("Hello World");
+  background(220);
+  text("Hello world",200,200);
 }
 
 function draw()
 {
-  background(220);
+
 }
