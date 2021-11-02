@@ -11,6 +11,6 @@ function draw() {
   m.show();
 
   if (mouseIsPressed) {
-    m.pos=new Vector(mouseX,mouseY);
+    m.pos.set(mouseX,mouseY);
   }
 }
