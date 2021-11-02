@@ -9,8 +9,8 @@ function draw() {
   background(220);
   m.update();
   m.show();
-  
+
   if (mouseIsPressed) {
-    //make attract to mouse position
+    m.pos=new Vector(mouseX,mouseY);
   }
 }
